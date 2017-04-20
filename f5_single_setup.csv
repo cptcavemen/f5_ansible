@@ -1,0 +1,3 @@
+appliance,primary,hostname,domain,vlan_ext_selfip,vlan_ext_selfmask,vlan_ext,vlan_ext_tag,vlan_int_selfip,vlan_int_selfmask,vlan_int,vlan_int_tag,vlan_ha_selfip,vlan_ha_selfmask,vlan_ha,vlan_ha_tag,ext_int,int_int,dns_server_1,dns_server_2,ntp_server_1,ntp_server_2,syslog_server
+10.255.111.23,yes,bigip-lab-1.stinkers.lan,.stinkers.lan,10.128.10.5,/24,F5_EXT,129,10.128.20.5,/24,F5_INT,130,1.1.1.1,/30,F5_HA,172,1.1,1.2,192.168.100.130,192.168.40.100,0.north-america.pool.ntp.org,1.north-america.pool.ntp.org,192.168.40.100
+10.255.111.24,no,f5-5200-b.sandbox.wwtatc.local,.sandbox.wwtatc.local,20.20.20.6,/24,F5_EXT,3900,10.10.10.6,/24,F5_INT,3901,1.1.1.2,/30,F5_HA,666,1.1,1.2,8.8.8.8,4.2.2.2,0.north-america.pool.ntp.org,1.north-america.pool.ntp.org,1.1.1.1
